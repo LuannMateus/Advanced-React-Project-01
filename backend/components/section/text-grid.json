@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_text_grids",
+  "info": {
+    "name": "text-grid",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
