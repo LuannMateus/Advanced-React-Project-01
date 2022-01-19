@@ -62,5 +62,15 @@
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
     "webpack": "^5.66.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/styles/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/**/stories.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
+    ]
   }
 }
