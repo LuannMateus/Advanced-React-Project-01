@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Footer /> should render 1`] = `
+exports[`<Footer /> Should render a footer 1`] = `
 .c0 {
   text-align: center;
 }

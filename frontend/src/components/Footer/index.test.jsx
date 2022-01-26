@@ -2,8 +2,8 @@ import { renderTheme } from '../../styles/renderTheme';
 import { Footer } from '.';
 
 describe('<Footer />', () => {
-  it('should render', () => {
-    const { container } = renderTheme(<Footer html="<h1>Hello!</h1>" />);
+  it('Should render a footer', () => {
+    const { container } = renderTheme(<Footer footerHtml="<h1>Hello!</h1>" />);
 
     expect(container).toMatchSnapshot();
   });
