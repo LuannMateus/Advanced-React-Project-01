@@ -28,9 +28,9 @@ exports[`<GridText /> Should render with background 1`] = `
   gap: 3.2rem;
 }
 
-.c8 .c3 {
+.c8 > .c3 {
   position: relative;
-  left: 5rem;
+  margin-left: 5rem;
 }
 
 .c8 .c3::before {
@@ -68,6 +68,12 @@ exports[`<GridText /> Should render with background 1`] = `
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -171,9 +177,9 @@ exports[`<GridText /> Should render without background 1`] = `
   gap: 3.2rem;
 }
 
-.c8 .c3 {
+.c8 > .c3 {
   position: relative;
-  left: 5rem;
+  margin-left: 5rem;
 }
 
 .c8 .c3::before {
@@ -211,6 +217,12 @@ exports[`<GridText /> Should render without background 1`] = `
 @media (max-width:768px) {
   .c4 {
     font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    grid-template-columns: 1fr;
   }
 }
 

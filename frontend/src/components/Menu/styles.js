@@ -14,8 +14,6 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    height: 100%;
     width: 100%;
 
     border-bottom: ${theme.colors.mediumGray};
@@ -58,9 +56,9 @@ export const Container = styled.div`
 `;
 
 export const MenuContainer = styled.div`
-  ${({ theme, visible }) => css`
+  ${({ theme }) => css`
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     @media ${theme.media.lteMedium} {
