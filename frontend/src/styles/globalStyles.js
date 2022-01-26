@@ -11,9 +11,11 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
 
-  body {
+  html, body {
     font-size: 1.6rem;
     font-family: ${({ theme }) => theme.font.family.default};
+
+    scroll-behavior: smooth;
   }
 
   h1, h2, h3, h4, h5, h6 {
