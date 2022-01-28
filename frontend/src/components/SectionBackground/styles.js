@@ -7,6 +7,8 @@ const containerBackgroundActivate = (theme) => css`
 
 export const Container = styled.div`
   ${({ theme, background }) => css`
+    width: 100%;
+
     background: ${theme.colors.white};
     color: ${theme.colors.primaryColor};
 

@@ -8,13 +8,20 @@ export const Container = styled.div`
     align-items: center;
     gap: ${theme.spacings.large};
 
+    margin-top: ${theme.spacings.xhuge};
+
+    ${Title} {
+      padding-left: ${theme.spacings.small};
+      margin-bottom: ${theme.spacings.xlarge};
+    }
+
     @media ${theme.media.lteMedium} {
       grid-template-columns: 1fr;
       text-align: center;
-    }
 
-    ${Title} {
-      margin-bottom: ${theme.spacings.xlarge};
+      ${Title} {
+        padding-left: 0;
+      }
     }
   `}
 `;

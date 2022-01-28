@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.footer`
   ${({ theme }) => css`
+    width: 100%;
+
     text-align: center;
 
     a {
