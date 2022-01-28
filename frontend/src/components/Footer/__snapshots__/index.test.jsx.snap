@@ -2,6 +2,7 @@
 
 exports[`<Footer /> Should render a footer 1`] = `
 .c0 {
+  width: 100%;
   text-align: center;
 }
 
@@ -14,12 +15,13 @@ exports[`<Footer /> Should render a footer 1`] = `
 
 .c2 {
   font-size: 2.4rem;
+  padding: 0 20px;
 }
 
 .c1 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
-  padding: 3.2rem;
 }
 
 <div>

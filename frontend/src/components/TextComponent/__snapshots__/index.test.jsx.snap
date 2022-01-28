@@ -3,6 +3,7 @@
 exports[`<TextComponent/> Should match snapshot 1`] = `
 .c0 {
   font-size: 2.4rem;
+  padding: 0 20px;
 }
 
 <div

@@ -2,6 +2,7 @@
 
 exports[`<SectionBackground /> Should render with a background dark 1`] = `
 .c0 {
+  width: 100%;
   background: #FFFFFF;
   color: #0A1128;
   background: #0A1128;
@@ -19,13 +20,14 @@ exports[`<SectionBackground /> Should render with a background dark 1`] = `
 
 .c1 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
-  padding: 3.2rem;
 }
 
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -40,6 +42,7 @@ exports[`<SectionBackground /> Should render with a background dark 1`] = `
 
 exports[`<SectionBackground /> Should render with a background light 1`] = `
 .c0 {
+  width: 100%;
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;
@@ -55,13 +58,14 @@ exports[`<SectionBackground /> Should render with a background light 1`] = `
 
 .c1 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
-  padding: 3.2rem;
 }
 
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
