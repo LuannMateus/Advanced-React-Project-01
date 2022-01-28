@@ -31,6 +31,8 @@ export const Grid = styled.div`
 export const GridElement = styled.div`
   ${({ theme }) => css`
     width: 100%;
+
+    overflow: hidden;
   `}
 `;
 
@@ -41,12 +43,6 @@ export const Image = styled.img`
 
     &:hover {
       transform: scale(1.2) rotate(10deg);
-    }
-
-    @media ${theme.media.lteMedium} {
-      &:hover {
-        transform: scale(1.1);
-      }
     }
   `}
 `;
