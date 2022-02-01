@@ -118,3 +118,4 @@ build
 ############################
 .vscode
 package-lock.json
+!ckeditor5-custom/*
